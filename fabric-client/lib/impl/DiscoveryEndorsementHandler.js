@@ -165,7 +165,7 @@ class DiscoveryEndorsementHandler extends api.EndorsementHandler {
 			// always randomize the layouts
 			endorsement_plan.layouts = this._getRandom(endorsement_plan.layouts);
 
-			// loop through the layouts trying to complete one successfully
+			logger.info('going through layouts', endorsement_plan);
 			for (const layout_index in endorsement_plan.layouts) {
 				logger.debug('%s - starting layout plan %s', method, layout_index);
 				const layout_results = await this._endorse_layout(layout_index, endorsement_plan, proposal, timeout);
