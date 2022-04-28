@@ -25,6 +25,8 @@
     "bn.js": "^4.11.3",
     "callsite": "^1.0.0",
     "elliptic": "^6.5.2",
+	  "fabric-ca-client": "file:../fabric-ca-client",
+	  "fabric-client": "file:./",
     "fs-extra": "^8.1.0",
     "grpc": "1.24.2",
     "lodash.clone": "4.5.0",
