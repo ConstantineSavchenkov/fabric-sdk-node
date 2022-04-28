@@ -7,7 +7,7 @@
 /* tslint:disable:max-classes-per-file */
 
 import * as ByteBuffer from 'bytebuffer';
-import FabricCAServices = require('fabric-ca-client');
+import FabricCAServices = require('../../fabric-ca-client');
 import * as Long from 'long';
 import { BaseClient } from './base';
 
